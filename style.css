@@ -1,0 +1,142 @@
+:root {
+    --myColor:#A52A2A;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#logo {
+    margin: 4px 0 4px 4px;
+    width: 70px;
+}
+
+.heading {
+    background: #F00;
+    color: #fff;
+    margin: 4px 4px;
+    font-size: 20px;
+    padding: 1px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 5px;
+}
+
+.nav a:nth-child(1),
+.nav a:nth-child(2),
+.nav a:nth-child(3) {
+    font-size: 14px;
+    color: #00F;
+}
+
+.intro {
+    background : var(--myColor);
+}
+
+.intro h2 {
+    color: #fff;
+    font-size: 27px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.intro p {
+    color: #fff;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.intro i {
+    color: #000;
+    font-weight: 900;
+}
+
+.intro img {
+    margin-top: 13px;
+    width: 450px;
+}
+
+.history {
+    background: var(--myColor);
+    color: #fff;
+    margin-top: 15px;
+}
+
+#history__heading{
+    padding: 0 5px;
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#history__list {
+    margin: 15px 0 10px 20px;
+}
+
+#history__img {
+    width: 450px;
+}
+
+.table__heading {
+    font-size: 22px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.table__price {
+    width: 600px; 
+    height: 500px;
+    margin: 0 auto;
+    font-size: 10px;
+}
+
+.table_head {
+    font-weight: 900;
+    padding: 12px;
+    text-align: center;
+}
+
+.greentea {
+    background-image: url(./img/greentea.jpg);
+    background-position: top;
+    background-size: cover;
+    text-align: right;
+}
+
+.blacktea {
+    background-image: url(./img/blacktea.jpg);
+    background-size: cover;
+    background-position: top;
+    text-align: center;
+}
+
+.olongtea {
+    background-image: url(./img/olongtea.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.fruittea {
+    background-image: url(./img/fruit.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+.milktea {
+    background-image: url(./img/milktea.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.money-center {
+    text-align: center;
+}
+
+.money-left {
+    text-align: left;
+}
